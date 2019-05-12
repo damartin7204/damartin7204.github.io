@@ -1,8 +1,7 @@
 h1 {
-    font-family: Zapfino;
+    font-family: Zapfino; text-underline-position: 
 }
-body { 
-    background-color: beige;
+body { background-color: beige;
     color: black;
     font-family: angsana new;
 }
