@@ -1,7 +1,7 @@
 h1 {
     font-family: Zapfino; 
 }
-body { background: beige;
+body, headr, footer { background: beige;
     color: black;
     font-family: "angsana new" sans-serif; font-size: 30px; line-height: 1.5;
 }
