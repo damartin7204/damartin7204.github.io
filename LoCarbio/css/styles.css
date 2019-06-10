@@ -15,33 +15,32 @@ header
 .main-nav 
 { 
     font-family: "angsana new" sans-serif;
-    font-size: 24px;
-    color: black;
+   
+    
     float: left;
-    margin-top: 20px;
-    padding: 1px 1px;
+    margin-top: 40px;
+    
     margin-left: 5px;
     display: inline;
 }
 
-
-
-    
-
-
-
+.main-nav li
+{ 
+    display: inline;
+}
 
 .main-nav li.active a
 {
-   border: 2px solid black; 
+    border: 2px solid black;
+    font-family: "angsana new", sans-serif;
+    background-color: bisque;
+    
     
 }
 
 .main-nav li a:hover
 {
     border: 2px solid black;
-    font-family: "angsana new", sans-serif;
-    background-color: bisque;
     transition: all 0.5s ease-in;
 }
 
@@ -69,50 +68,32 @@ body
     position: absolute;
     width: 1200px;
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
-h1 
+h2 
 {
     color: black;
     font-family: Zapfino;
     text-align: right;
+    margin-right: 40px
+}
+
+h3 
+{
+    color: black;
+    font-family: Zapfino;
+    text-align: center;
     margin-top: 100px;
 }
 
-.button
+h4 
 {
-    margin-top: 30px;
-    margin-left: 440px;
-}
-
-.btn
-{
-    border: 2px solid black;
-    padding: 10px  30px;
     color: black;
-    margin-right: 5px;
-    font-size: 24px;
-    text-transform: uppercase
-}
-
-.btn-one
-{
-    background-color: bisque;
-    font-family: "angsana new", sans-serif;
-}
-
-.btn-two
-{
-    font-family: "angsana new", sans-serif;
-}
-
-.btn-two:hover
-{
-    font-family: "angsana new", sans-serif;
-    background-color: bisque;
-    transition: all 0.5s ease-in;
-}
+    font-family: Zapfino;
+    text-align: left;
+    margin-top: 1px;
+    
 
 
 
