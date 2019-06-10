@@ -4,12 +4,14 @@
         padding: 0;
 }
 
-header
-{
+body
+{ 
     background-image: url(dirtypaper.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
+    font-family: "angsana new" sans-serif;
+    font-size: 24px;
 }
 
 .main-nav 
@@ -54,12 +56,6 @@ header
     float: right;
 }
 
-body
-{ 
-    font-family: "angsana new" sans-serif;
-    font-size: 24px;
-}
-
 .row
 {
     max-width: 1200px;
@@ -71,7 +67,7 @@ h2
     color: black;
     font-family: Zapfino;
     text-align: right;
-    margin-right: 40px
+    margin-right: 20px
 }
 
 h3 
