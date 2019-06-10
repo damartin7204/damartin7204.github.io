@@ -7,28 +7,32 @@
 header
 {
     background-image: url(dirtypaper.jpg);
+    height: 100vh;
     background-size: cover;
     background-position: center;
 }
 
-.main-nav
-{
+.main-nav:hover
+{ 
+    font-family: "angsana new" sans-serif;
+    font-size: 24px;
+    color: black;
     float: left;
-    list-style: none;
-    margin-top: 30px;
+    margin-top: 20px;
+    padding: 1px 1px;
+    margin-left: 5px;
+    display: inline;
 }
 
 .main-nav li
 {
-    display: table-header-group;
+    
 }
 
-.main-nav li a
+.main-nav li a:hover
 {
-    color: black;
-    padding: 10px 10px;
-    font-family: "angsana new" sans-serif;
-    font-size: 24px;
+    
+  
 }
 
 .main-nav li.active a
@@ -37,7 +41,7 @@ header
     border: 2px solid black;
 }
 
-main-nav li a:hover
+.main-nav li a
 {
     border: 2px solid black;
 }
