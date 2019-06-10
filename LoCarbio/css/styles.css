@@ -14,8 +14,8 @@ header
 
 .main-nav 
 { 
-    font-family: "angsana new" sans-serif;
     float: left;
+    list-style: none;
     margin-top: 40px;
     margin-left: 5px;
     
@@ -25,14 +25,14 @@ header
 { 
     display: inline-block;
 }
-
+    
 .main-nav li a
 {
     color: black;
+    text-decoration: none;
     padding: 1px 1px;
-    font-family: "angsana new" sans-serif;   
+    font-family: "angsana new", sans-serif;   
     font-size: 24px;
-    
 }
 
 .main-nav li.active a
