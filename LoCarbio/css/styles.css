@@ -58,7 +58,7 @@ body
     transform: translateY(-50%);
     bottom: initial!important!
 }
-.caroucel-caption h6
+.caroucel-caption h5
 {
     color: #000;
     transform: translateY(-50%);
