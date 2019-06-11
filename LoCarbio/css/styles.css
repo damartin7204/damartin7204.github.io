@@ -10,7 +10,6 @@ body
     background-size: cover;
     background-position: center;
     font-family: "angsana new" sans-serif;
-  
 }
 
 /*------Navigation------*/
@@ -27,16 +26,16 @@ body
 }
 .navbar-nav li 
 {
-    padding: 0 10px;
+    padding: 10px 10px;
 }
 .navbar-nav li a
 {
     float: right;
-    text-align: left;
+    text-align: center;
 }
 #nav-bar ul li a:hover
 {
-    color: #007bff!important;
+    color: #333!important;
 }
 .navbar-toggler
 {
@@ -59,9 +58,9 @@ body
     transform: translateY(-50%);
     bottom: initial!important!
 }
-.caroucel-caption h5
+.caroucel-caption h6
 {
-    color: #fff;
+    color: #000;
     transform: translateY(-50%);
     font-size: 42px;
 }
